@@ -1,4 +1,16 @@
 aid: zolve
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zolve.png
 name: Zolve
 description: 'Zolve is a company surfaced as a portfolio company of accel and added to the API Evangelist
   network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
@@ -22,5 +34,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zolve-domain-security.yml
 - type: Website
   url: https://zolve.com/
